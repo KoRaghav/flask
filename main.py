@@ -1,6 +1,6 @@
 from flask import Flask, render_template, request, url_for, flash, redirect, session
 from werkzeug.exceptions import abort
-import MySQLdb
+# import MySQLdb
 from user import dis_user,editAboutme,list_of_user_date
 from tag import get_tags,get_tags_list
 from question import pagefunction2,pagefunction_number,question_from_list_of_tag_ml
@@ -9,6 +9,8 @@ from particular_question import particular_que_from_id,answer_from_parent_id,sco
 from particular_question import one_ans,check_score_count,check_score_count_answer,ask_question
 from api import api
 import json
+import pymysql
+pymysql.install_as_MySQLdb()
 
 import re
 app = Flask(__name__)
