@@ -19,10 +19,13 @@ app = Flask(__name__)
 CORS(app)
 
 def requestConnection():
-    mydb = MySQLdb.connect(host='localhost',
+    mydb = MySQLdb.connect(
+        host='containers-us-west-162.railway.app',
     user='root',
-    passwd='root',
-    db='askq')
+    passwd='ufo2OWVGXtpgiPsXHUcW',
+    db='askq',
+    port=6118
+    )
     return mydb
 
 def requestCursor(conn):

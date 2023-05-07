@@ -8,7 +8,6 @@ def requestConnection():
     user='root',
     passwd='ufo2OWVGXtpgiPsXHUcW',
     db='askq',
-    # url='mysql://root:oSORUQDfXQrvlFZJdGwU@containers-us-west-189.railway.app:5527/railway',
     port=6118
     )
     return mydb

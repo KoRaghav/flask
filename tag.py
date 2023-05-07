@@ -3,10 +3,13 @@ pymysql.install_as_MySQLdb()
 import MySQLdb
 from collections import defaultdict
 def requestConnection():
-    mydb = MySQLdb.connect(host='localhost',
+    mydb = MySQLdb.connect(
+        host='containers-us-west-162.railway.app',
     user='root',
-    passwd='root',
-    db='askq')
+    passwd='ufo2OWVGXtpgiPsXHUcW',
+    db='askq',
+    port=6118
+    )
     return mydb
 
 def requestCursor(conn):
