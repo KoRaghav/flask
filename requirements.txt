@@ -14,7 +14,7 @@ filelock==3.10.7
 Flask==2.2.3
 pymysql
 # default-libmysqlclient-dev
-Flask-MySQLdb
+# Flask-MySQLdb
 Flask-Testing==0.8.1
 fonttools==4.38.0
 igraph==0.10.2
