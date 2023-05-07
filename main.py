@@ -41,10 +41,7 @@ def ml(query,page):
 @app.route('/user/<int:id>',methods=['GET'])
 def user_by_id(id):
     x = dis_user(id)
-    response = Flask.jsonify(dict(enumerate(x)))
-    response.headers.add('Access-Control-Allow-Origin', '*')
-    return response
-
+    return(dict(enumerate(x)))
 
 # Get list of users in a page
 @app.route('/users/<int:page>',methods=['GET'])
@@ -275,6 +272,7 @@ def sort_ans_by_time_main(id):
 
 @app.route('/')
 def index():
+    print("5")
     return render_template('index.html')
 
 if __name__=="__main__":
