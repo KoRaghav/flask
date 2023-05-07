@@ -13,7 +13,7 @@ distlib==0.3.6
 filelock==3.10.7
 Flask==2.2.3
 pymysql
-# Flask-MySQLdb==1.0.1
+Flask-MySQLdb==1.0.1
 Flask-Testing==0.8.1
 fonttools==4.38.0
 igraph==0.10.2
