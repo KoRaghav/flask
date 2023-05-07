@@ -1,6 +1,5 @@
 from flask import Flask, render_template, request, url_for, flash, redirect, session
 from werkzeug.exceptions import abort
-from flask_paginate import Pagination, get_page_args
 import MySQLdb
 from user import dis_user,editAboutme,list_of_user_date
 from tag import get_tags,get_tags_list
