@@ -11,6 +11,7 @@ from api import api
 import json
 import pymysql
 pymysql.install_as_MySQLdb()
+import MySQLdb
 
 import re
 app = Flask(__name__)
