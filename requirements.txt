@@ -1,6 +1,7 @@
 flask>=2.0.0
 gunicorn>=20.1.0
 
+mysql_config
 big-O-calculator==0.0.9.8.4
 bintrees==2.2.0
 click==8.1.3
