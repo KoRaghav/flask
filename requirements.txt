@@ -36,7 +36,7 @@ six==1.16.0
 source==1.2.0
 tailer==0.4.1
 textrazor==1.4.0
-texttable==1.6.4
+texttable==1.6.7
 threadpoolctl==3.1.0
 tk==0.1.0
 virtualenv==20.21.0
