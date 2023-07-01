@@ -10,7 +10,7 @@ contourpy==1.0.6
 coverage==7.2.2
 cycler==0.11.0
 distlib==0.3.6
-filelock==3.10.7
+filelock==3.12.2
 Flask==2.2.3
 pymysql
 # default-libmysqlclient-dev
